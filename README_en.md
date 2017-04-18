@@ -8,4 +8,7 @@ Besides acting as a perfectly functioning Git version control server, the Git Dr
 
 Git Drive offers a different way to manage your code other than conventional code-management models. For example, when using Git Drive, your code is stored on your personal device – and if you are also using iCloud, any repository can be available on any device, step-by-step and in real time. Only through this model are you able to fully utilize the available space on your iPhone or iPad as storage for all of your important data. It facilitates convenient data exchange among a working team, while at the same time saving you the cost and time of setting up a personal Git version control server.
 
+Table of Contents
+=================================
+- [Managing Repositories](./docs/chapter_1_en.md)
 
