@@ -11,4 +11,5 @@ Git Drive offers a different way to manage your code other than conventional cod
 Table of Contents
 =================================
 - [Managing Repositories](./docs/chapter_1_en.md)
+- [Viewing Repository Content](./docs/chapter_2_en.md)
 
