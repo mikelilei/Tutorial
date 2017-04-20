@@ -12,4 +12,5 @@ Table of Contents
 =================================
 - [Managing Repositories](./docs/chapter_1_en.md)
 - [Viewing Repository Content](./docs/chapter_2_en.md)
+- [Commit History](./docs/chapter_3_en.md)
 
