@@ -54,4 +54,15 @@ If this option is enabled, any remote users will need to provide a username and 
 
 You will need to assign authorized users for a repository while on the ***User Management*** screen; if a repository does not have any authorized users, there will be no way for remote users to access it. After enabling authorized user access, click ***User Management*** Options to select which users have permission to access the repository. 
 
+Cloud Synchronization
+---------
+We utilize iCloud as backup storage for Git Drive – through iCloud, we can synchronize any repository change to any device. We suggest that you enable Cloud synchronization for all important repositories, to prevent any data loss due to damages at the local device level.
+
+After enabling Cloud synchronization, the application will synchronize repository updates with iCloud at a pre-determined interval. Since you may use the same iCloud account for other purposes as well, every synchronization is incremental – we guarantee the smallest amount of data transfer necessary.
+
+There is a situation in which your local repository and Cloud repository may be conflicting. Consider the following scenario: Device A has added a few updates to Repository C, which have not yet been synchronized with the Cloud; however, Repository C has also been updated on Device B. If both devices attempt synchronization at the same time, a content conflict is produced within the repository. So, how is this conflict resolved? Take Device A as an example; upon discovering the conflicting data coming from Device B, a resolution method will automatically take effect, and the conflicting content will not be placed into Repository C. Instead, a new repository will be created under the title “C_xxxxx”, at which point Repository C will now be considered the main repository, while Repository C_xxxxx will be considered the sub-repository. C_xxxxx will include the updated content coming from Repository C on Device B.
+
+If you would like to manually resolve the conflicting data, you can download both the main and sub-repositories locally, and establish a separate repository on which to save a version that has been merged from the conflicting content. This will be considered the resolved repository. After the resolved repository has been transferred to Git Drive, the main repository is of no use and can be deleted.
+
+Every repository can have multiple sub-repositories. These repositories cannot be deleted independently, but only together with the main repository. The updated content within the sub-repository will be also synchronized with the Cloud.
 
