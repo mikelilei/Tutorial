@@ -15,6 +15,7 @@ Besides modifying the syntax color of any text file, you can also change color t
 Here are some example files:
 
 - [Objective-C](../src/objc/POPAnimation.h)
+- [Ruby](../src/ruby/console_logger_spec.rb)
 - [CSS](../src/css/bounce.css)
 - [JS](../src/js/button.js)
 

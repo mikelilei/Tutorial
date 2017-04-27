@@ -12,6 +12,7 @@
 下面是一些示例文件：
 
 - [Objective-C](../src/objc/POPAnimation.h)
+- [Ruby](../src/ruby/console_logger_spec.rb)
 - [CSS](../src/css/bounce.css)
 - [JS](../src/js/button.js)
 
