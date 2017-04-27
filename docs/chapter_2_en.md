@@ -12,6 +12,13 @@ The Text File Browser is used to view text files, and based on the file extensio
 
 Besides modifying the syntax color of any text file, you can also change color theme, fonts, and text sizes.
 
+Here are some example files:
+
+- [Objective-C](../src/objc/POPAnimation.h)
+- [Ruby](../src/ruby/console_logger_spec.rb)
+- [CSS](../src/css/bounce.css)
+- [JS](../src/js/button.js)
+
 Markdown File Browser
 ---------
 Markdown is widely-used as a marking language, so we developed the markdown file browser – in this browser you can examine HTML versions of a markdown file, and can also check the markdown’s source file by pressing the icon in the upper right corner of the screen.
@@ -20,9 +27,13 @@ Image File Browser
 ---------
 The Image File Browser supports most major image formats; you can resize images from the browser.
 
+This is an example image file, [Tap here to open the image browser](../git_drive.png).
+
 Open In System Browser
 ---------
 Selecting "Open in System Browser" will open any files supported by iOS, including: audio, video, Excel, Word, etc..
+
+This is an example PDF file, [Tap here to open in system browser](../swift_guide.pdf).
 
 Branches and Tags
 ---------
