@@ -66,3 +66,15 @@
 
 每个仓库可能会有多个子仓库，这些子仓库不可以被单独删除，它们只可以跟随着主仓库一起被删除，子仓库的内容更新也同样会被同步到云。
 
+关于仓库的标志
+---------
+如果您注意一下，会在仓库视图上发现仓库名称旁边会有一些不同样子的小图标，每个小图标都代表着不同的含义，了解这些含义，能够帮助您更好的管理仓库，下面就为您一一介绍这些图标的含义：
+- ![](../image/icon_indicator_repository_new.png) 代表这是一个新建的仓库，还从未被访问过，如果您在仓库名字上点一下，那么这个图标会立即消失。
+- ![](../image/icon_indicator_repository_auth.png) 如果出现这个标志，则意味着仓库已经开启了授权访问，远程访问需要提供用户名和密码。
+- ![](../image/icon_indicator_repository_shallow.png) 如果出现这个标志，则代表这是一个shallow的仓库。
+- ![](../image/icon_indicator_repository_locked.png) 如果出现这个标志，则代表当前仓库已经被锁定，被锁定的仓库无法进行写操作。
+- ![](../image/icon_indicator_repository_need_backup.png) 如果出现这个标志，则意味着当前的仓库有些更新尚未同步到云，可能会有诸多原因造成内容没有及时同步，比如：您指定了仅在Wi-Fi环境同步，但是当前的网络环境不满足，又或者您还没有登录iCloud。
+- ![](../image/icon_indicator_repository_new_content.png) 如果出现这个标志，则意味着这个仓库最近被更新过，您尚未查看这些更新，中间的数字代表共有多少次的更新未被查看。
+- ![](../image/icon_indicator_repository_root.png) 如果出现这个标志，则意味着当前的仓库和iCloud存在内容冲突，这个是主仓库。
+- ![](../image/icon_indicator_repository_child.png) 如果出现这个标志，则意味当前仓库是为了解决和iCloud内容冲突而自动创建的子仓库，它的作用主要用来保存和主仓库相冲突的内容。
+

@@ -66,3 +66,16 @@ If you would like to manually resolve the conflicting data, you can download bot
 
 Every repository can have multiple sub-repositories. These repositories cannot be deleted independently, but only together with the main repository. The updated content within the sub-repository will be also synchronized with the Cloud.
 
+Guide to Repository Icons
+---------
+Once you have a little bit of experience using the app, you will notice that the ***All Repositories*** screen uses a few different types of small icons to represent various characteristics of each repository. The icons are located next to each listed repository. Understanding the meanings behind these simple icons will help you manage your repositories more effectively. A brief explanation for each icon is listed below, to get you familiarized with their usage: 
+
+- ![](../image/icon_indicator_repository_new.png) This icon indicates that a repository has been newly created，and has yet to be accessed; the icon will disappear as soon as the repository name is pressed for the first time.
+- ![](../image/icon_indicator_repository_auth.png) This icon indicates that a repository has already enabled access by authorized remote users; remote users will need to provide their username and password for access.
+- ![](../image/icon_indicator_repository_shallow.png) This icon appears next to a shallow repository.
+- ![](../image/icon_indicator_repository_locked.png) This icon indicates that a repository is currently locked; there is no way to proceed with any write operations on a locked repository.
+- ![](../image/icon_indicator_repository_need_backup.png) If this icon appears, the repository has changes that are not currently synchronized with the Cloud; there are many reasons that the content may not have synchronized. For example, you may have enabled synchronization for Wi-Fi connections only, and the current network connection is insufficient; or, you may not be signed into your iCloud account.
+- ![](../image/icon_indicator_repository_new_content.png) This icon indicates that a repository has recently been updated, but you have not yet checked the updates. The number represents the total number of times the repository has been updated since it was last checked. 
+- ![](../image/icon_indicator_repository_root.png) This icon indicates the main repository in a set of repositories that has conflicting data.
+- ![](../image/icon_indicator_repository_child.png) This icon indicates the sub-repository in a set of repositories that has conflicting data.
+
