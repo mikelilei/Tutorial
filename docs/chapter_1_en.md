@@ -79,3 +79,9 @@ Once you have a little bit of experience using the app, you will notice that the
 - ![](../image/icon_indicator_repository_root.png) This icon indicates the main repository in a set of repositories that has conflicting data.
 - ![](../image/icon_indicator_repository_child.png) This icon indicates the sub-repository in a set of repositories that has conflicting data.
 
+Locking a Repository
+---------
+To guarantee the atomicity of each operation, the application will always lock a repository before any updates are made to it. Only once the updates are successfully completed will the repository be unlocked, so that if the operation fails the repository can be reverted back to its prior state. In the rarest of cases, the failed operation will persist (e.g., if the system’s available storage space is too low), and in these circumstances the repository will remain in a locked state. Repositories in this condition are inaccessible for any modifications, but are available in a read-only state.
+
+In these cases you are required to manually unlock the repository, but how is this done? It’s actually quite simple – all you need to do is download the locked repository locally, delete the locked repository on Git Drive, and then re-upload your local version.
+
