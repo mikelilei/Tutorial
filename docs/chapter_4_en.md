@@ -12,5 +12,10 @@ git clone http://192.168.1.100/myrepo OR
 git clone git://192.168.1.100/myrepo
 ```
 
+#### Background Operation Mode
+
+Under the default setting, the Git Drive will continue to operate for a set period of time (a few minutes) after exiting to the home screen or switching to another application. The Git server will remain connected during this period of time.
+
+If you disable Background Operation Mode from the Server Settings, the Git server will stop working when you exit to the device home screen or switch to another application – you will have no way to connect your device unless you re-open Git Drive.
 
 
