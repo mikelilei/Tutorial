@@ -8,6 +8,40 @@ Besides acting as a perfectly functioning Git version control server, the Git Dr
 
 Git Drive offers a different way to manage your code other than conventional code-management models. For example, when using Git Drive, your code is stored on your personal device – and if you are also using iCloud, any repository can be available on any device, step-by-step and in real time. Only through this model are you able to fully utilize the available space on your iPhone or iPad as storage for all of your important data. It facilitates convenient data exchange among a working team, while at the same time saving you the cost and time of setting up a personal Git version control server.
 
+## Quick Start
+#### What is Git?
+If you are not already familiar with Git, here is an online tutorial to help you get started with Git faster [A great online Git tutorial](https://git-scm.com/book/en/v2)
+#### How to Transfer Existing Local Repositories to Git Drive
+- Ensure that your mobile device and PC are connected to the same Wi-Fi network.
+- Open Git Drive, and confirm that the Git server is in the "Enabled" state. If enabled, the Server switch will be blue ***(Side Menu --> Server Switch)***.
+- Open the Git Drive Finder, allowing the Finder to map the Git Drive domain for you.
+- In ***Create New Repository*** screen ***(Left Menu --> All Repositories --> Create New Repositories)***, input ***myrepo*** and click to complete.
+- After entering the local Git repository, input the following command to finish adding the remote Git repository:
+
+```
+git remote add myrepo http://gitdrive.com/myrepo
+```
+- Finally, input the following command to push the local repository to Git Drive:
+
+```
+git push myrepo refs/heads/*:refs/heads/*
+```
+#### How to Clone a Repository from Git Drive
+- Ensure that your mobile device and PC are connected to the same Wi-Fi network.
+- Open Git Drive, and confirm that the Git server is in the "Enabled" state. If enabled, the Server switch will be blue ***(Side Menu --> Server Switch)***.
+- Open the Git Drive Finder, allowing the Finder to map the Git Drive domain for you.
+- From here, enter the following command to establish a new repository:
+
+```
+git clone http://gitdrive.com/your_repo_name
+```
+
+- Or, to establish a shallow repository, enter the following command:
+
+```
+git clone —-depth=1 http://gitdrive.com/your_repo_name
+```
+
 Table of Contents
 =================================
 - [Managing Repositories](./docs/chapter_1_en.md)
