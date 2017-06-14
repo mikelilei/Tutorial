@@ -44,6 +44,16 @@ git clone http://gitdrive.com/your_repo_name
 git clone —-depth=1 http://gitdrive.com/your_repo_name
 ```
 
+#### Git Drive Finder
+
+由于您可能会在不同的网络中切换，所以我们建议您通过域名访问您的服务器，但是为了避免在每次网络切换后都修改Host文件，我们开发了Git Drive Finder(位于/Tutorial/finder目录下)，这个工具是用Java编写的，所以在使用上没有系统的限制。
+
+Git Drive Finder可以在网络中自动定位Git Drive，并在Host文件中增加一条域名和IP的映射记录，从设备的安全的角度出发，我们需要您提供设备密码 ***（侧栏菜单 --> IP地址右边）***，输入设备密码后，点击 ***确定*** 开始搜索，只有密码正确的设备可以被搜索到，在开始搜索之前请确保App处于打开的状态。
+
+由于自动配置工具需要修改系统的Host文件，在Windows下需要管理员的权限来运行，在Mac或者其它Unix或者Linux系统下需要用sudo来运行，否则将无法修改Host文件。
+
+您通过 ***侧栏菜单 --> 设置 --> 服务器*** 来配置服务器的域名，配置完成后，在切换到不同的网络后，只需要再次重新运行Finder即可自动更换域名对应的IP地址。
+
 目录
 =================================
 - [仓库管理](./docs/chapter_1_zh.md)

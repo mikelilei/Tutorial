@@ -42,6 +42,16 @@ git clone http://gitdrive.com/your_repo_name
 git clone —-depth=1 http://gitdrive.com/your_repo_name
 ```
 
+#### Git Drive Finder
+
+Because you may be switching between different network connections, we suggest that you access your server using a domain name. To avoid having to modify the Host file each time you switch networks, we have developed Git Drive Finder(located in the /Tutorial/finder directory). This tool uses Java, so there are no system restrictions for its use.
+
+Git Drive Finder will automatically locate Git Drive within a network, and add a domain name and IP mapping to the Host file. From a security standpoint, we require that the device passcode be provided ***(Side Menu --> Right Side of IP Address)***. After entering the device passcode, click ***START*** to begin a search; only devices with that passcode will be found. Please ensure that Git Drive is open before beginning a search.
+
+Because this automatic configuration tool needs to modify the system’s Host file, Administrator Authorization is required for use in Windows systems. Mac systems, along with other Unix or Linux systems, need to use sudo to run the tool; otherwise it will be unable to modify the Host file.
+
+Navigate to ***Side Menu --> Settings --> Server*** to configure the server domain name. After configuration is complete, you will only need to run Finder when switching network connections, and the IP address corresponding to your domain name will be automatically updated on your computer.
+
 Table of Contents
 =================================
 - [Managing Repositories](./docs/chapter_1_en.md)
