@@ -58,7 +58,7 @@ GitDrive Finderはネットワーク上のGitDriveを自動的に発見し、Hos
 目次
 =================================
 - [レポジトリ管理](./docs/chapter_1_ja.md)
-- [レポジトリ内容閲覧(./docs/chapter_2_ja.md)
+- [レポジトリ内容閲覧](./docs/chapter_2_ja.md)
 - [コミット履歴](./docs/chapter_3_ja.md)
 - [Gitサーバー管理](./docs/chapter_4_ja.md)
 
